@@ -354,7 +354,7 @@ footer .wrap{padding-top:64px;padding-bottom:36px}
 .founder .role{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--cy);line-height:1.9;margin-top:18px}
 .founder .bio{font-size:16px;line-height:1.75;color:var(--ink2);margin-top:22px;max-width:48ch;font-weight:500}
 .frame.founderph img{height:clamp(300px,30vw,420px);object-position:center 30%}
-.trainers{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,32px);margin-top:clamp(44px,5vw,64px)}
+.trainers{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,2.4vw,32px);margin-top:clamp(44px,5vw,64px)}
 .tcard{background:#fff;border:1px solid var(--hair);transition:border-color .3s,transform .4s var(--ease)}
 .tcard:hover{border-color:var(--ink);transform:translateY(-4px)}
 .tcard .ph{aspect-ratio:4/5;overflow:hidden;background:var(--wash);position:relative}
@@ -439,10 +439,10 @@ footer .wrap{padding-top:64px;padding-bottom:36px}
 .shph::before{content:"";position:absolute;right:0;bottom:0;width:70%;height:70%;background:var(--y)}
 .shph .ph{position:relative;overflow:hidden;aspect-ratio:4/5;background:var(--hair)}
 .shph img{width:100%;height:100%;object-fit:cover}
-.faces{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;position:relative;padding:0 20px 20px 0}
+.faces{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;position:relative;padding:0 20px 20px 0}
 .faces::before{content:"";position:absolute;right:0;bottom:0;width:62%;height:56%;background:var(--y)}
 .faces figure{position:relative;overflow:hidden;aspect-ratio:1/1;background:var(--hair)}
-.faces figure:first-child{grid-column:1/4;aspect-ratio:16/10}
+.faces figure:first-child{grid-column:1/5;aspect-ratio:16/10}
 .faces img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease)}
 .faces figure:hover img{transform:scale(1.05)}
 .faces figcaption{position:absolute;left:8px;bottom:8px;background:#fff;font-size:9.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:6px 9px}
@@ -466,6 +466,7 @@ footer .wrap{padding-top:64px;padding-bottom:36px}
   .nav{gap:20px}
   .fgrid{grid-template-columns:repeat(3,1fr)}
   .fgrid .fcol:first-child{grid-column:1/-1}
+  .trainers{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:960px){
   .nav{display:none}
